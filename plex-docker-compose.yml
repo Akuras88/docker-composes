@@ -17,8 +17,8 @@ services:
       – “32414:32414/udp”
 
     environment:
-      – PUID=${PUID}
-      – PGID=${PGID}
+      – PUID=1000
+      – PGID=1000
       – TZ=Europe/Berlin
       – PLEX_CLAIM=claim-x7oVwakS1ybDRxw8CdPD
       – HOSTNAME=”PlexServer”
